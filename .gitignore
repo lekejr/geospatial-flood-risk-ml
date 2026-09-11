@@ -1,0 +1,24 @@
+# Virtual environment
+venv/
+
+# Large raw data files (too big for GitHub, and reproducible via scripts)
+data/raw/*.tif
+data/processed/lagos_feature_table.csv
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code settings (optional, personal preference)
+.vscode/
+
+# Large model and raster files (regeneratable via scripts)
+outputs/models/*.pkl
+outputs/maps/*.tif
